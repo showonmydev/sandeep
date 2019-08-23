@@ -1,0 +1,17 @@
+/*=========================================================================================
+    File Name: vxList.scss
+    Description: Styles for vx-list component. Imported in VxList.vue file
+    ----------------------------------------------------------------------------------------
+    Item Name: The Key Society
+      Author: Marwan Refaat
+    Author URL: https://TheKeySociety.com
+==========================================================================================*/
+
+
+.list {
+    .list__item {
+        display: flex;
+        padding: .4rem;
+        align-items: flex-start;
+    }
+}

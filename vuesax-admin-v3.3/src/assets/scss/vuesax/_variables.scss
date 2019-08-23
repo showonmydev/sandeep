@@ -1,0 +1,100 @@
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: The Key Society
+      Author: Marwan Refaat
+    Author URL: https://TheKeySociety.com
+==========================================================================================*/
+
+
+/*========================================================
+        SPACING
+=========================================================*/
+
+$spacer: 2.2rem;
+$spacer-sm: ($spacer / 2);
+$spacer-lg: ($spacer * 2);
+
+
+
+/*========================================================
+        COLORS
+=========================================================*/
+
+$primary: #D3001D;
+$success: #028d41;
+$danger: #FF830D;
+$warning: #FFD500;
+$dark: #0e0e0e;
+$grey: #777777;
+$grey-light: #fafafa;
+$white: #ffffff;
+$black: #000000;
+
+
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+
+$font-family-sans-serif:  "Montserrat", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default;
+$font-size-small:         ceil(($font-size-base * 0.85)) !default;
+
+$h1-font-size:                $font-size-base * 2;
+$h2-font-size:                $font-size-base * 1.74;
+$h3-font-size:                $font-size-base * 1.51;
+$h4-font-size:                $font-size-base * 1.32;
+$h5-font-size:                $font-size-base * 1.14;
+$h6-font-size:                $font-size-base;
+
+
+$line-height-base:        1.625rem !default;
+
+$headings-font-family:    inherit !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.2 !default;
+$headings-color:          #000000;
+$headings-margin-bottom:      ($spacer / 2) !default;
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            700;
+
+$font-weight-base:            $font-weight-normal;
+$line-height-base:            1.45;
+
+$content-color: #000000;
+$theme-background: #f8f8f8;
+
+
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+
+$reduced-sidebar-width: 80px;
+
+
+/*========================================================
+        DARK THEME
+=========================================================*/
+
+$sidebar-dark-bg: #000000;
+$content-dark-bg: #ffffff;
+$dark-card-color: #ffffff;
+$table-dark-stripe: #000000;
+$table-light-stripe: #000000;
+$grid-dark-color: #3b3b3b;
+
+$theme-light-dark-bg: #000000;
+$theme-dark-bg: #000000;
+$theme-dark-text-color: #ffffff;
+$theme-dark-heading-color: #000000;
+$theme-dark-border-color: #ffffff;
